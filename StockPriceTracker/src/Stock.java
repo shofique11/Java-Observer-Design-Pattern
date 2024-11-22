@@ -19,7 +19,6 @@ public class Stock implements Subject{
     {
         observers.remove(observer);
     }
-
     @Override
     public void notifyObservers() {
         for (Observer observer : observers) {

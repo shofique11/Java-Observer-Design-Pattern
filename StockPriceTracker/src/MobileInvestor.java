@@ -1,6 +1,6 @@
-public class LaptopInvestor implements Observer{
+public class MobileInvestor implements Observer{
     private final String investorName;
-    public  LaptopInvestor(String investorName)
+    public  MobileInvestor(String investorName)
     {
         this.investorName = investorName;
     }

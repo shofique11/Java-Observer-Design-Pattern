@@ -10,5 +10,9 @@ public class Main {
         appleStock.registerObserver(investor1);
         appleStock.registerObserver(investor2);
         appleStock.setPrice(150);
+        Stock realmeStock = new Stock("Readme Note 12");
+        MobileInvestor mobileInvestor = new MobileInvestor("Kholilllur");
+        realmeStock.registerObserver(mobileInvestor);
+        realmeStock.setPrice(20);
     }
 }
