@@ -9,12 +9,12 @@ public class Stock implements Subject{
    public Stock(String stockName){
        this.stockName = stockName;
    }
-
+    @Override
     public void registerObserver(Observer observer)
     {
         observers.add(observer);
     }
-
+    @Override
     public void removeObserver(Observer observer)
     {
         observers.remove(observer);
